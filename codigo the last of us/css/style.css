@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: Arial;
+    color: white;
+}
+
+.paragrafo1 {
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    color: white;
+    font-family: Arial;
+
+}
+
+.paragrafo2{
+    width: 50%;
+    margin: auto;    
+    text-align: justify;
+    color: white;
+    font-family: Arial;
+}
+
+  .imagens img {
+    width: 32%; /* Define a largura para que caibam três imagens lado a lado */
+  }
+
+video{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+
