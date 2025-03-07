@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(255, 201, 210);
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: arial;
+    color: rgb(231, 100, 122);
+}
+
+hr{
+    border-color: rgb(247, 124, 124);
+    width: 70%;
+}
+
+p{
+    margin: auto;
+    text-align: justify;
+    width: 60%;
+    color: rgb(177, 46, 46);
+}
+
+img{
+    height: 350px;
+}
+
+.imagem{
+    width: fit-content;
+    margin: auto;
+}
+
+video{
+    height: 400px;
+    display: block;
+    margin: auto;
+    border-style:  groove;
+    border-color: pink;
+}
+
+
