@@ -1,0 +1,49 @@
+body{
+    background: url(../image/pexels-introspectivedsgn-5763199.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.central{
+    background: rgba(255, 255, 255, 0.493);
+    width: 20%;
+    height: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.central input{
+    width: 70%;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.central button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.central button:hover{
+    background: rgb(194, 193, 193);
+}
+
+.central p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    
+}
