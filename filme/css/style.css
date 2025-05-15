@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(red, blue);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.central img{
+    width: 300px;
+    
+}
+
+.central{
+    background: white;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+    box-shadow: 3px 3px 15px black;
+    border-radius: 15px;
+    
+
+}
+
+.central .botao button{
+    background: black;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 25px;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+
