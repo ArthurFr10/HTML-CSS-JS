@@ -1,0 +1,109 @@
+@font-face {
+    font-family: curriculo;
+    src: url(../fonte/Autography.otf);
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 80px;
+    color: #069;
+    font-family: curriculo;
+}
+
+p{
+    color: #069;
+    font-size: 21px;
+    line-height: 0.1;
+    
+}
+
+#imagem{
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #069;
+
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #069;
+    font-size: 30px;
+}
+
+h3{
+    font-size: 23px;
+}
+
+.corpo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #069;
+}
+
+.corpo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #069;
+}
+
+.corpo{
+    color: #069;
+    margin-left: 40px;
+}
+
+
+.central{
+    box-shadow: 1px 1px 5px;
+    width: 1000px;
+    margin-top: 15px;
+}
+
+
+hr{
+    width: 93%;
+    height: 10px;
+    background-color: #069;
+
+
+}
+
+#img1{
+    width: 40px;
+    
+}
+
+#img2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+#img1:hover{
+    width: 60px;
+
+}
+
+
+
